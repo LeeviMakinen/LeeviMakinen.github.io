@@ -44,9 +44,19 @@
             max-width: 100%;
 
         }
+
+        iframe{
+            max-height: 100vh;
+        }
+
         .container iframe{
             max-width: 100%;
-
+        }
+        @media (max-width: 768px) {
+            .container iframe{
+                max-width: 90%;
+                max-height: 90%;
+            }
         }
         h1, h2, h3, h4, h5, h6 {
             color: #ffc107;
@@ -167,7 +177,7 @@
         <div class="row">
                 <h2>Vielä video esimerkki</h2>
                 <div class="video">
-                <iframe width="1920" height="1080"
+                <iframe width="900" height="600"
                         src="https://www.youtube.com/embed/SQoA_wjmE9w">
                 </iframe>
                 </div>
