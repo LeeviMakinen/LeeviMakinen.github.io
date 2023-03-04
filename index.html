@@ -38,26 +38,25 @@
             padding: 0.5rem;
             border: 3px solid #ffc107;
             border-radius: 5px;
-
         }
         .post img {
             max-width: 100%;
 
         }
 
-        iframe{
-            max-height: 100vh;
+        .container iframe{
+            height: 500px;
+            max-width: 95%;
+            max-height: 95%;
         }
 
-        .container iframe{
-            max-width: 100%;
-        }
-        @media (max-width: 768px) {
-            .container iframe{
-                max-width: 90%;
-                max-height: 90%;
+        @media only screen and (max-width: 768px) {
+            .container iframe {
+                height: 300px;
             }
         }
+
+
         h1, h2, h3, h4, h5, h6 {
             color: #ffc107;
 
@@ -174,14 +173,13 @@
     </div>
 
     <div class="post">
-        <div class="row">
                 <h2>Vielä video esimerkki</h2>
                 <div class="video">
-                <iframe width="900" height="600"
-                        src="https://www.youtube.com/embed/SQoA_wjmE9w">
+                <iframe width="1000" height="500"
+                        src="https://www.youtube.com/embed/SQoA_wjmE9w"
+                        allowfullscreen>
                 </iframe>
                 </div>
-        </div>
     </div>
 
 
@@ -197,3 +195,5 @@
         <li>Address: Katukatu 12, Kaupunki Suomi</li>
     </ul>
 </div>
+</body>
+</html>
